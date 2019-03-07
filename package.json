@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-api-starter",
+  "version": "0.1.0",
+  "repository": "",
+  "license": "",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "description": "",
+  "author": {
+    "name": "Beth Pan"
+  },
+  "dependencies": {
+    "config": "^3.0.1",
+    "express": "^4.16.4",
+    "serve-favicon": "^2.5.0",
+    "swagger-ui-express": "^4.0.2"
+  },
+  "devDependencies": {}
+}

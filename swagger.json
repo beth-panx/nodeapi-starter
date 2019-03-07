@@ -1,0 +1,36 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "API Description",
+    "version" : "0.1",
+    "title" : "API Title"
+  },
+  "paths" : {
+    "/foo/bar/{param1}" : {
+      "get" : {
+        "parameters" : [ {
+          "name" : "param1",
+          "in" : "path",
+          "description" : "",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Query executed successfully",
+            "schema" : {
+              "type" : "string"
+            }
+          },
+          "204" : {
+            "description" : "Query executed with no data returned",
+            "schema" : {
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : { }
+}
